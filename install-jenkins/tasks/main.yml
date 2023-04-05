@@ -1,5 +1,5 @@
 - name: Installing Java
-  shell : amazon-linux-extras install java-openjdk11 -y
+  shell : yum install java-openjdk11 -y
 
 - name: adding repo
   shell: wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
